@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 
 // Presentational components
-import { Input, Loading } from '../components/index';
+import { Input } from '../components/index';
 
 export default class InputContainer extends Component {
     constructor(props) {
@@ -42,7 +42,8 @@ export default class InputContainer extends Component {
 
     handleOnBlur = () => {
         this.setState({
-            showResults: true
+            showResults: true,
+            loading: false
         })
     };
     render() {
@@ -60,14 +61,10 @@ export default class InputContainer extends Component {
                     handleChange={this.handleChange}
                     handleOnFocus={this.handleOnFocus}
                     handleOnBlur={this.handleOnBlur}
+                    userInput={userInput}
+                    loading={loading}
                 />
-                {
-                    userInput.length > 1
-                        ? loading
-                             ? <Loading />
-                             : null
-                        : null
-                }
+
             </React.Fragment>
         )
     }

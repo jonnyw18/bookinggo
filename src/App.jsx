@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import './scss/App.css';
 
 // Views
 import { Home } from './views';

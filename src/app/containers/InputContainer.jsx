@@ -8,18 +8,25 @@ export default class InputContainer extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            searchData: []
+            searchData: [],
+            userInput: ''
         }
     }
 
-    componentDidMount() {
-        axios.get(`https://cors.io/?https://www.rentalcars.com/FTSAutocomplete.do?solrIndex=fts_en&solrRows=${6}&solrTerm=${'London'}`)
+    handleChange = (event) => {
+       this.setState({
+           userInput: event.target.value
+       }, () => {
+           this.getLocation()
+       })
+    }
+
+    getLocation = () => {
+        axios.get(`https://cors.io/?https://www.rentalcars.com/FTSAutocomplete.do?solrIndex=fts_en&solrRows=${6}&solrTerm=${this.state.userInput}`)
             .then((response) => {
                 if(response.status === 200) {
                     this.setState({
                         searchData: response.data.results.docs
-                    }, () => {
-                        console.log(this.state.searchData)
                     })
                 }
             }).catch((err) => console.log(err));
@@ -28,7 +35,8 @@ export default class InputContainer extends Component {
     render() {
         return (
             <Input
-                data={this.state.searchData}
+                searchData={this.state.searchData}
+                handleChange={this.handleChange}
             />
         )
     }

@@ -1,5 +1,5 @@
 import React from 'react';
-import Loading from "./Loading";
+import { Loading } from "../index";
 
 const Input = ({
    handleChange,
@@ -33,17 +33,7 @@ const Input = ({
                 </div>
 
             </div>
-            <div hidden={showResults} className="test-scss">
-                {
-                    searchData.length > 0
-                        ? searchData.map((locations, index) => (
-                            locations.city
-                                ? <p key={index}> {locations.city} </p>
-                                : <p key={index}> {locations.name} </p>
-                        ))
-                        : null
-                }
-            </div>
+
         </div>
     )
 };

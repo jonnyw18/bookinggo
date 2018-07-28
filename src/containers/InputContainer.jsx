@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 
 // Presentational components
-import { Input } from '../components/index';
+import { Input, SearchResults } from '../components';
 
 export default class InputContainer extends Component {
     constructor(props) {
@@ -56,15 +56,16 @@ export default class InputContainer extends Component {
         return (
             <React.Fragment>
                 <Input
-                    searchData={userInput.length > 1 ? searchData : ''}
-                    showResults={showResults}
                     handleChange={this.handleChange}
                     handleOnFocus={this.handleOnFocus}
                     handleOnBlur={this.handleOnBlur}
                     userInput={userInput}
                     loading={loading}
                 />
-
+                <SearchResults
+                    searchData={userInput.length > 1 ? searchData : ''}
+                    showResults={showResults}
+                />
             </React.Fragment>
         )
     }

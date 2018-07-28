@@ -2,28 +2,14 @@
 ================================================================================
   Components Table
 ================================================================================
-[1] Inputs
-[2] Loading
-[3] SearchResults
+[1] Layout
 ============================================================================= */
 
 // #############################
-// [1] Inputs
+// [1] Layout
 // #############################
-import { Input } from './Inputs';
-
-// #############################
-// [2] Loading
-// #############################
-import { Loading } from './Spinners';
-
-// #############################
-// [3] Common
-// #############################
-import { SearchResults } from './Common';
+import SearchResults from './SearchResults';
 
 export {
-  Input,
-  Loading,
-  SearchResults
-};
+    SearchResults
+}

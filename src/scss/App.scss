@@ -3,8 +3,8 @@
   SCSS Table
 ================================================================================
 [1] Imports
-[2] Input
-[3] Loading spinner
+[2] Inputs
+[3] Spinners
 ============================================================================= */
 
 // #############################
@@ -12,9 +12,8 @@
 // #############################
 @import './_variables';
 
-
 // #############################
-// [2] Input
+// [2] Inputs
 // #############################
 .search-container {
   padding: 35px;
@@ -22,8 +21,9 @@
   align-items: flex-start;
   flex-direction: column;
   background-color: $primaryColor;
-  width: 50vw;
-  height: 200px;
+  width: 88vw;
+  height: auto;
+  margin: 0 auto;
     h1 {
       margin: 0;
       padding-bottom: 10px;
@@ -42,7 +42,7 @@
       padding: 10px 0 2px 0;
     }
   .input-container {
-    width: 90%;
+    width: 97.8%;
     position: relative;
       input {
         width: 100%;
@@ -65,7 +65,7 @@
 }
 
 // #############################
-// [3] Loading spinner
+// [3] Spinners
 // #############################
 .loading-spinner {
   height: 24px;

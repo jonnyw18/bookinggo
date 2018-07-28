@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 const Input = ({
    handleChange,
    searchData,
@@ -8,14 +7,15 @@ const Input = ({
    handleOnBlur,
    showResults}) => {
     return (
-        <React.Fragment>
+        <div className="search-container">
+            <h1> Let's find your ideal car </h1>
             <input
                 type="text"
                 onFocus={handleOnFocus}
                 onBlur={handleOnBlur}
                 onChange={handleChange}
             />
-            <div hidden={showResults}>
+            <div hidden={showResults} className="test-scss">
                 {
                     searchData.length > 0
                         ? searchData.map((locations, index) => (
@@ -26,9 +26,7 @@ const Input = ({
                         : null
                 }
             </div>
-
-
-        </React.Fragment>
+        </div>
     )
 };
 

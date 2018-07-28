@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Container Components
-import { InputContainer } from '../containers';
+import { InputContainer } from '../containers/index';
 
 const Home = () => <InputContainer />;
 

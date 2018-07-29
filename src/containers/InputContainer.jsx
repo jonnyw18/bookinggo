@@ -41,10 +41,10 @@ export default class InputContainer extends Component {
     };
 
     handleOnBlur = () => {
-        // this.setState({
-        //     showResults: true,
-        //     loading: false
-        // })
+        this.setState({
+            showResults: true,
+            loading: false
+        })
     };
 
     render() {

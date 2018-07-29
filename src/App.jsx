@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import './App.css';
+import './scss/App.css';
 
 // Views
-import { Home } from './app/views';
+import { Home } from './views';
 
 class App extends Component {
   render() {
     return (
-      <Home />
+          <Home />
     );
   }
 }

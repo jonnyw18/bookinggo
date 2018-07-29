@@ -1,5 +1,5 @@
 import React from 'react';
-import { Loading } from "../index";
+import { Loading } from "../";
 
 const Input = ({
    handleChange,
@@ -12,7 +12,7 @@ const Input = ({
 }) => {
     return (
         <div className="search-container">
-            <h1> Let's find your ideal car </h1>
+            <h2> Let's find your ideal car </h2>
             <label> Pick-up Location </label>
             <div className="input-container">
                 <input

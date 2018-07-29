@@ -41,11 +41,12 @@ export default class InputContainer extends Component {
     };
 
     handleOnBlur = () => {
-        this.setState({
-            showResults: true,
-            loading: false
-        })
+        // this.setState({
+        //     showResults: true,
+        //     loading: false
+        // })
     };
+
     render() {
         const {
             userInput,
@@ -63,7 +64,7 @@ export default class InputContainer extends Component {
                     loading={loading}
                 />
                 <SearchResults
-                    searchData={userInput.length > 1 ? searchData : ''}
+                    searchData={userInput.length > 1 ? searchData : []}
                     showResults={showResults}
                 />
             </React.Fragment>

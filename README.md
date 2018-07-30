@@ -18,7 +18,7 @@ Tech stack:
     - Promised based HTTP client used to bring in external data to the application, in this case it is use to bring in the results from the FTSAutocomplete endpoint.
 
 4) SCSS ( Style )
-    - All styling has been achieved by using the SCSS syntax, created a watcher script to auto compile any changes made to any file with the extension of .scss.
+    - All styling has been achieved by using the SCSS, created a watcher script to auto compile any changes made to any file with the extension of .scss.
 
 5) Jest/Enyzme ( Testing )
     - Basic testing achieved using the Enzyme API.

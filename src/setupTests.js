@@ -8,7 +8,7 @@ import sinon from 'sinon';
 
 // Set the default serializer for Jest to be the from enzyme-to-json
 // This produces an easier to read (for humans) serializer format.
-expect.addSnapshotSerializer(createSerializer({ mode: 'deep'}));
+expect.addSnapshotSerializer(createSerializer({ mode: 'deep' }));
 
 Enzyme.configure({ adapter: new Adapter() });
 

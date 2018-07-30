@@ -1,8 +1,8 @@
-import Loading from "../Loading";
+import Loading from '../Loading';
 
 describe('<Loading />', () => {
-    it('renders correctly', () => {
-        const wrapper = shallow(<Loading />);
-        expect(wrapper).toMatchSnapshot();
-    });
+  it('renders correctly', () => {
+    const wrapper = shallow(<Loading />);
+    expect(wrapper).toMatchSnapshot();
+  });
 });

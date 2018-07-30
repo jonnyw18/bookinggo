@@ -8,4 +8,4 @@ import App from './App';
 
 // const store = createStore(allReducers, applyMiddleware(thunk));
 
-ReactDOM.render(<App />,document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));

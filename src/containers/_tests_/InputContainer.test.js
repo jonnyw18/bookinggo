@@ -1,8 +1,8 @@
-import InputContainer from "../InputContainer";
+import InputContainer from '../InputContainer';
 
 describe('<InputContainer />', () => {
-    it('renders correctly', () => {
-        const wrapper = shallow(<InputContainer />);
-        expect(wrapper).toMatchSnapshot();
-    });
+  it('renders correctly', () => {
+    const wrapper = shallow(<InputContainer />);
+    expect(wrapper).toMatchSnapshot();
+  });
 });

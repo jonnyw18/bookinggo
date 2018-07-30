@@ -3,8 +3,8 @@
 // import GetLocationsReducer from './reducer-getLocations';
 
 // const allReducers = combineReducers({
-    // locations: LocationsReducer,
-    // getLocations: GetLocationsReducer
+// locations: LocationsReducer,
+// getLocations: GetLocationsReducer
 // });
 //
 // export default allReducers

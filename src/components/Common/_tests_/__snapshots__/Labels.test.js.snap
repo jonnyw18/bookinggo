@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Labels /> renders correctly 1`] = `
+<div
+  className="label-container"
+>
+  <div
+    className="label-details-container"
+  >
+    <li
+      id="no-results"
+    >
+       
+       
+    </li>
+  </div>
+</div>
+`;

@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InputContainer /> renders correctly 1`] = `
+<React.Fragment>
+  <Input
+    handleChange={[Function]}
+    handleOnBlur={[Function]}
+    handleOnFocus={[Function]}
+    loading={true}
+    selectedLocation=""
+    userInput=""
+  />
+  <SearchResults
+    getSelectedLocation={[Function]}
+    hideResults={false}
+    searchData={Array []}
+  />
+</React.Fragment>
+`;

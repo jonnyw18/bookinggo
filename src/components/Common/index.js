@@ -16,6 +16,6 @@ import SearchResults from './SearchResults';
 import Labels from './Labels';
 
 export {
-    SearchResults,
-    Labels
-}
+  SearchResults,
+  Labels,
+};

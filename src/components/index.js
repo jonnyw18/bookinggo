@@ -25,5 +25,5 @@ import { SearchResults } from './Common';
 export {
   Input,
   Loading,
-  SearchResults
+  SearchResults,
 };

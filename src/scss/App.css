@@ -6,6 +6,8 @@
 [2] Inputs
 [3] Spinners
 [4] Common
+[5] Media Queries
+[6] Misc
 ============================================================================= */
 .search-container {
   padding: 35px;
@@ -57,7 +59,9 @@
   height: auto;
   width: 430px;
   margin: -35px auto;
-  background-color: #fff; }
+  background-color: #fff;
+  position: relative;
+  z-index: 1000000; }
 
 .label-container {
   cursor: pointer;
@@ -116,10 +120,16 @@
     font-weight: 400;
     color: gray;
     display: block;
-    font-size: 0.8em; }
+    font-size: 0.8em;
+    opacity: 0.6; }
 
 .loading-spinner {
   height: 24px; }
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0; }
 
 ul {
   margin: 0;
@@ -127,3 +137,50 @@ ul {
 
 li {
   list-style: none; }
+
+@media (max-width: 1100px) {
+  .search-container {
+    width: inherit;
+    margin: 0 auto;
+    padding: 16px; }
+    .search-container h2 {
+      text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5);
+      text-align: left;
+      padding: 0;
+      -webkit-font-smoothing: antialiased;
+      color: #333;
+      margin: 4px 0;
+      font-weight: 700;
+      font-size: 1.35em;
+      line-height: 1.3em; }
+    .search-container label {
+      display: block;
+      color: #000;
+      text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5);
+      font-size: 12px; }
+    .search-container .input-container {
+      display: flex;
+      width: 100%; }
+      .search-container .input-container input {
+        flex-grow: 1;
+        transition: all .3s linear !important;
+        border-radius: 4px;
+        height: 40px;
+        border: 1px solid;
+        padding: 0 2%;
+        font-size: .813em;
+        border-color: #b2a26d #caba85 #e3d39e; }
+      .search-container .input-container .loading-spinner-container {
+        right: 0;
+        margin-right: 5px;
+        top: 10px; }
+  .search-results-container {
+    width: 100%;
+    margin-top: -15px; } }
+
+.responsive-input {
+  position: relative !important;
+  transition: all .3s linear !important;
+  width: 100% !important;
+  margin-left: -15px !important;
+  margin-right: -15px !important; }

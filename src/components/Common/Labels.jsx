@@ -55,7 +55,13 @@ const Labels = ({ locations }) => {
                 </div>
             );
         default:
-            return <li> { locations.name } </li>;
+            return (
+                <div className="label-container">
+                    <div className="label-details-container">
+                        <li id="no-results"> {locations.name} </li>
+                    </div>
+                </div>
+            )
     }
 };
 

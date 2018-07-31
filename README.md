@@ -22,7 +22,7 @@ Tech stack:
     - Basic responsive styling added to the application, replicating the rental cars mobile view.
     
 5) Jest/Enyzme ( Testing )
-    - Basic testing achieved using the Enzyme API.
+    - Basic unit testing achieved using the Enzyme API.
     - Config file created 'setupTests' which is required to add 'enzyme-adapter-react-16' (npm package) to the Jest configuration, without this Enzyme will not work!
     - Created global variables inside setupTests file, removes the need to import boilerplate into each test file.
 

@@ -7,6 +7,15 @@ Instructions:
 
 Tech stack:
 
+React,
+SCSS,
+Axios,
+Jest/Enyzme,
+Redux (code commented out, ran out of time)
+CircleCi
+
+Application Description: 
+
 1) Container/Presentational ( File structure )
     - Presentational components job is to render purely props/JSX.
     - Container components job is to hold all of the logic for the component and in turn hand down any data to the child component (presentational component) in the form of props.

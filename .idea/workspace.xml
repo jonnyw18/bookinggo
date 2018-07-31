@@ -8,9 +8,7 @@
       <change beforePath="$PROJECT_DIR$/../AdminLTE-2.4.3/js/locationScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminLTE-2.4.3/js/locationScript.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AdminLTE-2.4.3/page1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminLTE-2.4.3/page1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AdminLTE-2.4.3/page2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/InputContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/InputContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rubbish-removal/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../rubbish-removal/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../rubbish-removal/package.json" beforeDir="false" />
@@ -99,7 +97,7 @@
           <entry key="html" value="51" />
           <entry key="js" value="4584" />
           <entry key="json" value="201" />
-          <entry key="jsx" value="12039" />
+          <entry key="jsx" value="12040" />
           <entry key="md" value="2559" />
           <entry key="scss" value="3130" />
           <entry key="yml" value="10" />
@@ -110,7 +108,7 @@
           <entry key="CSS" value="8" />
           <entry key="HTML" value="51" />
           <entry key="JSON" value="201" />
-          <entry key="JSX Harmony" value="12039" />
+          <entry key="JSX Harmony" value="12040" />
           <entry key="JavaScript" value="4584" />
           <entry key="Markdown" value="131" />
           <entry key="PLAIN_TEXT" value="2428" />
@@ -126,8 +124,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/containers/InputContainer.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-225">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="165">
+              <caret line="31" column="25" lean-forward="true" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -394,7 +395,7 @@
       <workItem from="1532708417180" duration="32702000" />
       <workItem from="1532992370913" duration="642000" />
       <workItem from="1532999750490" duration="207000" />
-      <workItem from="1533014229658" duration="110000" />
+      <workItem from="1533014229658" duration="427000" />
     </task>
     <servers />
   </component>
@@ -431,11 +432,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81861000" />
+    <option name="totallyTimeSpent" value="82178000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -724,8 +724,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/InputContainer.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-225">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="165">
+          <caret line="31" column="25" lean-forward="true" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

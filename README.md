@@ -2,10 +2,19 @@ Instructions:
 
 - To start the application run 'npm start' in the terminal.
 - To run tests run 'npm run test' in the terminal.
-- To manually fire the scss build compiler run 'npm run build-css'.
-- To eject from the create-react-app configuration run 'npm eject'.
+- To manually fire the scss build compiler run 'npm run build-css' in the terminal.
+- To eject from the create-react-app configuration run 'npm eject' in the terminal.
 
 Tech stack:
+
+React,
+SCSS,
+Axios,
+Jest/Enyzme,
+Redux (code commented out, ran out of time)
+CircleCi
+
+Application Description: 
 
 1) Container/Presentational ( File structure )
     - Presentational components job is to render purely props/JSX.
@@ -22,7 +31,7 @@ Tech stack:
     - Basic responsive styling added to the application, replicating the rental cars mobile view.
 
 5) Jest/Enyzme ( Testing )
-    - Basic testing achieved using the Enzyme API.
+    - Basic unit testing achieved using the Enzyme API.
     - Config file created 'setupTests' which is required to add 'enzyme-adapter-react-16' (npm package) to the Jest configuration, without this Enzyme will not work!
     - Created global variables inside setupTests file, removes the need to import boilerplate into each test file.
 

@@ -20,7 +20,7 @@ Tech stack:
 4) SCSS ( Style )
     - All styling has been achieved by using the SCSS syntax, created a watcher script to auto compile any changes made to any file with the extension of .scss.
     - Basic responsive styling added to the application, replicating the rental cars mobile view.
-    
+
 5) Jest/Enyzme ( Testing )
     - Basic testing achieved using the Enzyme API.
     - Config file created 'setupTests' which is required to add 'enzyme-adapter-react-16' (npm package) to the Jest configuration, without this Enzyme will not work!

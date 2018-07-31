@@ -2,8 +2,8 @@ Instructions:
 
 - To start the application run 'npm start' in the terminal.
 - To run tests run 'npm run test' in the terminal.
-- To manually fire the scss build compiler run 'npm run build-css'.
-- To eject from the create-react-app configuration run 'npm eject'.
+- To manually fire the scss build compiler run 'npm run build-css' in the terminal.
+- To eject from the create-react-app configuration run 'npm eject' in the terminal.
 
 Tech stack:
 
